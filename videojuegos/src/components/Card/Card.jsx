@@ -10,7 +10,7 @@ const Card = ({juegos}) => {
                 <div class="px-6 py-4">
                     <div class="font-bold text-xl mb-2">{juego.name}</div>
                         <p class="text-gray-700 text-base">
-                            {juego.description}
+                            {juego.desc}
                         </p>
                 </div>
                 <div class="px-6 pt-4 pb-2">
