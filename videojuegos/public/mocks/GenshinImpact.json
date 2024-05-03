@@ -1,0 +1,22 @@
+[
+    {
+
+        "id": 5,
+        "name": "Genshin Impact",
+        "type": "rol",
+        "desc": "Comienza tu travesía en Teyvat para buscar a tu familiar perdido y encontrar respuestas sobre los dioses elementales. Explora cada rincón de este mundo maravilloso, une fuerzas con un amplio repertorio de personajes, y revela los muchos misterios ocultos...",
+        "desarrollador": "miHoYo",
+        "lanzamiento": "28 de septiembre de 2020",
+        "plataformas": ["PC", "PlayStation 4", "PlayStation 5", "iOS", "Android"],
+        "images": [
+            "../../src/assets/Genshin/genshin.jpg",
+            "../../src/assets/Genshin/genshin-1.jpg"
+            ],
+        "calificacion": {
+          "metacritic": 81,
+          "usuarios": 8.3
+        },
+        "clasificacion": "PEGI 12",
+        "enlace": "https://genshin.mihoyo.com/en"
+    }
+]
