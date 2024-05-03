@@ -12,7 +12,12 @@ const onClickHomeHandler = () => {
   };
 
     return( 
-        <><p className="text-red-700 font-bold text-3xl">detalles...</p><Button text="Home" onClick={onClickHomeHandler} /></>
+        <div>
+
+          <p className="text-red-700 font-bold text-3xl">detalles...</p>
+          <Button text="Home" onClick={onClickHomeHandler} />
+          
+        </div>
         );
   };
   
