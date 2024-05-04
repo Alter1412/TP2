@@ -4,6 +4,8 @@ import { ROUTES } from "../../const/routes";
 import  Button from "../../components/Boton/Boton";
 import { useState, useEffect } from "react";
 import Card from "../../components/Card/Card";
+import Header from "../../components/Header/Header";
+import Footer from "../../components/Footer/Footer";
 
 const Home = () => {
   const navigate = useNavigate();
@@ -28,7 +30,10 @@ const onClickDetallesHandler = () => {
 
 
   return (
-  <div>
+    
+  <div class="flex flex-wrap">
+    
+    <Header></Header>
 
 {/*     {juegosState.map((juegos) => {
       return <p key={juegos.name}> {juegos.name}</p>;
@@ -36,6 +41,8 @@ const onClickDetallesHandler = () => {
     <Card juegos={juegosState}></Card>
 
     <Button text="detalles" onClick={onClickDetallesHandler} />
+
+    <Footer></Footer>
 
     </div>
 
