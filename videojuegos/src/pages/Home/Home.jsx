@@ -28,7 +28,7 @@ const Home = () => {
      console.log(juegosState)
      resultado = juegosState
    }else{
-     resultado = juegosState.filter((juego)=>juego.name.toLocaleLowerCase().includes(filtro.toLocaleLowerCase()))
+     resultado = juegosState.filter((juego)=>juego.name.toLocaleLowerCase().startsWith(filtro.toLocaleLowerCase()))
      console.log(resultado)
    }
 
@@ -45,7 +45,7 @@ const Home = () => {
   <div class="flex flex-wrap">
     
 
-    <SearchBar filtro={filtro} onFiltroChange={busqueda}></SearchBar>
+    <SearchBar filtro={filtro} onFiltroChange={busqueda} ></SearchBar>
 
 {/*     {juegosState.map((juegos) => {
       return <p key={juegos.name}> {juegos.name}</p>;
