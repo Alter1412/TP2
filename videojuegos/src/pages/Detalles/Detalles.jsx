@@ -3,6 +3,8 @@ import { useParams } from "react-router-dom";
 import { useNavigate } from "react-router-dom";
 import { ROUTES } from "../../const/routes";
 import  Button from "../../components/Boton/Boton";
+import Header from "../../components/Header/Header";
+import Footer from "../../components/Footer/Footer";
 
 const Detalles = () => {
   const { id } = useParams();
@@ -28,6 +30,7 @@ const Detalles = () => {
 
   return (
     <div>
+      <Header />
       <h2>Detalles del juego</h2>
      
             <strong>Nombre:</strong> {juegosDetalle.name}<br />
@@ -40,6 +43,8 @@ const Detalles = () => {
           
             <strong>enlace:</strong> {juegosDetalle.enlace}<br />
             <Button text="Home" onClick={onClickHomeHandler} />
+
+            <Footer />
     </div>
      
   );

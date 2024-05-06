@@ -10,7 +10,7 @@ const Card = ({juegos}) => {
           
              
             <div key={juego.id} className="max-w-xl w-full sm:w-1/2 lg:w-1/3 xl:w-1/3 p-8">
-                <img className="w-full h-64 object-cover"  onClick={() => navigate(`/Detalles/${juego.id}`)} src={`/img/${juego.images}`}   alt="Game Cover" />
+                <img className="w-full h-64 object-cover cursor-pointer"  onClick={() => navigate(`/Detalles/${juego.id}`)} src={`/img/${juego.images}`}   alt="Game Cover" />
                 <div className="px-6 py-4">
                     <div className="font-bold text-xl mb-2">{juego.name}</div>
                         <p className="text-gray-700 text-base">

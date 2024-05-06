@@ -1,9 +1,9 @@
 import { useNavigate } from "react-router-dom";
-
 import { useState, useEffect } from "react";
 import Card from "../../components/Card/Card";
-
 import SearchBar from "../../components/SearchBar/SearchBar";
+import Header from "../../components/Header/Header";
+import Footer from "../../components/Footer/Footer";
 
 const Home = () => {
   const [juegosState, setJuegosState] = useState([]);
@@ -43,7 +43,7 @@ const Home = () => {
   return (
     
   <div class="flex flex-wrap">
-    
+    <Header />
 
     <SearchBar filtro={filtro} onFiltroChange={busqueda} ></SearchBar>
 
@@ -53,7 +53,7 @@ const Home = () => {
     <Card juegos={resultado}></Card>
 
     
-   
+   <Footer />
 
     </div>
 
