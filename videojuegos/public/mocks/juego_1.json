@@ -1,0 +1,22 @@
+
+    {
+        "id": 1,
+        "name": "Hollow Knight",
+        "type": "plataformer",
+        "desc":"¡Forja tu propio camino en Hollow Knight! Una aventura épica a través de un vasto reino de insectos y héroes que se encuentra en ruinas. Explora cavernas tortuosas, combate contra criaturas corrompidas y entabla amistad con extraños insectos, todo en un estilo clásico en 2D ",
+        "desarrollador": "Team Cherry",
+        "lanzamiento": "24 de febrero de 2017",
+        "plataformas": ["PC", "Nintendo Switch", "PlayStation 4", "Xbox One"],
+        "images": [
+            "hollow-knight.jpg",
+            "hollow-knight-1.jpg"
+            ],
+        "clasificacion": "PEGI 7",
+        "calificacion": {
+            "metacritic": 90,
+            "usuarios": 9.3
+          },
+        "enlace": "https://teamcherry.com.au/hollow-knight/"
+    
+    }
+

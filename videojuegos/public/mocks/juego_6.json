@@ -1,0 +1,17 @@
+ {
+        "id": 6,
+        "name": "Honkai: Star Rail",
+        "type": "rol",
+        "desc": "Sube al Expreso Astral y descubre las maravillas infinitas de la galaxia en este viaje lleno de emoción y aventuras.",
+        "desarrollador": "miHoYo",
+        "lanzamiento": "Por confirmar",
+        "plataformas": ["PC", "iOS", "Android"],
+        "enlace": "Por confirmar",
+       
+        "calificacion": {
+            "metacritic": "Por confirmar",
+            "usuarios": "Por confirmar"
+        },
+        
+        "clasificacion": "Por confirmar"
+ }
