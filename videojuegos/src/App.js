@@ -27,7 +27,6 @@ function App() {
         <Header/>
       <header className="App-header">
         <RouterProvider router={router} />
-       
 
       </header>
       
