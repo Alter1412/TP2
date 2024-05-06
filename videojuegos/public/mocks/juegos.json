@@ -4,9 +4,8 @@
         "name": "Hollow Knight",
         "type": "plataformer",
         "desc":"¡Forja tu propio camino en Hollow Knight! Una aventura épica a través de un vasto reino de insectos y héroes que se encuentra en ruinas. Explora cavernas tortuosas, combate contra criaturas corrompidas y entabla amistad con extraños insectos, todo en un estilo clásico en 2D ",
-        "images": [
-            "../../src/assets/HollowKnight/hollow-knight-cover.jpg"
-            ]
+        "images": "hollow-knight-cover.jpg"
+          
     
     },
     {
@@ -14,9 +13,9 @@
         "name": "Rain World",
         "type": "survival",
         "desc": "Ponte en la piel de un gato-babosa nómada perdido en un ecosistema corrompido en el que eres tanto depredador como presa. ",
-        "images": [
-            "../../src/assets/RainWorld/rain-world-cover.png"
-            ]
+        "images": 
+            "rain-world-cover.png"
+            
    
     },
     {
@@ -25,7 +24,7 @@
         "type": "simulator",
         "desc": "Acabas de heredar la vieja parcela agrícola de tu abuelo de Stardew Valley. Decides partir hacia una nueva vida con unas herramientas usadas y algunas monedas. ¿Te ves capaz de vivir de la tierra y convertir estos campos descuidados en un hogar próspero?",
         "images": [
-            "../../src/assets/StardewValley/stardew-valley-cover.jpg"
+            "stardew-valley-cover.jpg"
             ]
    
     },
@@ -35,7 +34,7 @@
         "type": "aventure",
         "desc": "¡Transforma el mundo de Hob! Un nuevo juego de acción y aventuras de la mano de Runic Games, el premiado estudio creador de Torchlight I y II. Esta es tu oportunidad: conviértelo en tu hogar.",
         "images": [
-            "../../src/assets/Hob/hob-cover.jpg"
+            "hob-cover.jpg"
             ]
    
     },
@@ -45,7 +44,7 @@
         "type": "rol",
         "desc": "Comienza tu travesía en Teyvat para buscar a tu familiar perdido y encontrar respuestas sobre los dioses elementales. Explora cada rincón de este mundo maravilloso, une fuerzas con un amplio repertorio de personajes, y revela los muchos misterios ocultos...",
         "images": [
-            "../../src/assets/Genshin/genshin-cover.jpg"
+            "genshin-cover.jpg"
             ]
     },
     {
@@ -54,7 +53,7 @@
         "type": "rol",
         "desc": "Sube al Expreso Astral y descubre las maravillas infinitas de la galaxia en este viaje lleno de emoción y aventuras.",
         "images": [
-            "../../src/assets/Honkai/honkai-cover.jpg"
+            "honkai-cover.jpg"
             ]
     }
 ]
