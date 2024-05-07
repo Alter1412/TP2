@@ -7,6 +7,7 @@ import Header from "../../components/Header/Header";
 import Footer from "../../components/Footer/Footer";
 
 const Detalles = () => {
+  //se ingresa el id del juego por parametro haciendo uso de useParams();
   const { id } = useParams();
   const [juegosDetalle, setJuegosDetalles] = useState([]);
   const navigate = useNavigate();
@@ -18,8 +19,8 @@ const Detalles = () => {
   useEffect(() => {
     const fetchJuegos = async () => {
      
-        const response = await fetch(`../../mocks/juego_${id}.json`);
-
+        const response = await fetch(`../../mocks/juego_${id}.json`); //la ruta de mocks mas el id que ingresa como parametro muestra el archivo json correspondiente a ese juego
+      
         const resultado = await response.json();
 
         setJuegosDetalles(resultado);
@@ -30,9 +31,9 @@ const Detalles = () => {
 
   return (
     <div>
-      <Header />
+      <Header />  //muestro los datos del json 
       <h2>Detalles del juego</h2>
-     
+          
             <strong>Nombre:</strong> {juegosDetalle.name}<br />
             <strong>Género:</strong> {juegosDetalle.type}<br />
             <strong>Descripcion:</strong> {juegosDetalle.desc}<br />
