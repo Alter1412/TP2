@@ -31,7 +31,7 @@ const Detalles = () => {
 
   return (
     <div>
-      <Header />  //muestro los datos del json 
+      <Header /> { /*muestro los datos del json */}
       <h2>Detalles del juego</h2>
           
             <strong>Nombre:</strong> {juegosDetalle.name}<br />

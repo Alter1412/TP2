@@ -12,7 +12,7 @@ const Header = () => {
     };
 
     return (
-        <nav className="mx-auto flex max-w-7xl items-center justify-between p-6 lg:px-8 bg-slate-900">
+        <nav className="flex-nowrap w-4/6 bg-[#000940] mb-8 ">
           <div className="flex items-center flex-shrink-0 text-white mr-6">
            <img  onClick={onClickHomeHandler} className="h-24 w-auto cursor-pointer" src={logo} alt="" />
             <span className="font-semibold text-2xl tracking-tight">Game Zone</span>
