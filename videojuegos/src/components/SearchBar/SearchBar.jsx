@@ -2,7 +2,7 @@ import React from "react";
 function SearchBar({filtro, onFiltroChange }) {
     return (
       
-        <input className="search-bar text-black flex-1 h-14  mt-5 mr-5  "
+        <input className="search-bar text-black  h-14  my-5 mr-5 ml-96 w-8/12"
           type="text"
           value={filtro}
           placeholder="Buscar..."

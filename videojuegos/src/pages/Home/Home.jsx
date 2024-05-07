@@ -43,10 +43,8 @@ const Home = () => {
   return (
     
   <div class="flex flex-wrap bg-indigo-950">
-    <Header />
- <div class="flex-nowarp bg-[#000940] flex-1 h-24  ">
-    <SearchBar filtro={filtro} onFiltroChange={busqueda} ></SearchBar>
-    </div>
+    <Header filtro={filtro} onFiltroChange={busqueda} />
+ 
 {/*     {juegosState.map((juegos) => {
       return <p key={juegos.name}> {juegos.name}</p>;
     })} */}
