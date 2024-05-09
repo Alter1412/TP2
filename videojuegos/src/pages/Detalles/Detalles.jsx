@@ -32,48 +32,48 @@ const Detalles = () => {
   return (
     <div>
       <Header /> 
-                 
-      <div className="max-w-7xl mx-auto w-full shadow-xl">
-      <div className="rounded-2xl bg-gray-50 py-10 text-center ring-1 ring-inset ring-gray-900/5 lg:flex lg:flex-col lg:justify-center lg:py-16">
-        <div className="grid grid-cols-1 bg-white md:grid-cols-2 gap-8 ">
-          <section className="flex flex-col justify-center items-center">
-            <img className="shadow-md rounded-2xl w-60 h-70 " src={`/img/imagen_${id}.jpg`}   alt="Game Cover" />
-            <div className="ml-2 text-black">
-            <p className="text-sm text-gray-500">metacritic | usuarios </p>
-              {juegosDetalle.calificacion?.metacritic}  {juegosDetalle.calificacion?.usuarios}
-            </div>
-         
-          </section>
-          <section className=" text-left text-black">
-            <h1 class="font-bold  border-b pb-1 mb-3">{juegosDetalle.name}</h1>
-           
-            <p className="mb-10">{juegosDetalle.precio}</p> 
-            <p className="mb-3 text-sm text-left ">Disponible: {juegosDetalle.lanzamiento}</p> 
+    <div className=" ">
+      <div className="">
+          <div className="grid grid-flow-col   ">
+            <div className="row-span-3 col-span-1 ml-64 text-black mb-9">
+              <h1 className="font-bold  border-b pb-1 mb-3">{juegosDetalle.name}</h1>
+                <img className="shadow-md rounded-2xl w-60 h-70 " src={`/img/imagen_${id}.jpg`}   alt="Game Cover" />
+                <div className="ml-2 text-black">
+                  <p className="text-sm text-gray-500">metacritic | usuarios </p>
+                    {juegosDetalle.calificacion?.metacritic}  {juegosDetalle.calificacion?.usuarios}
+                </div>
+                <br />
+                <p className="mb-3">Precio: {juegosDetalle.precio}</p> 
+               <p className="mb-3 text-sm text-left ">Disponible: {juegosDetalle.lanzamiento}</p> 
     
-             
-             
-              
               <a href={juegosDetalle.enlace} className=" bg-[#F205CB] hover:bg-blue-700 text-white font-bold py-2 px-10 rounded inline-flex ">
               obtener juego
             </a> 
-              
-          </section>
-        </div>
+
+            </div>
+            <div  className="grid  grid-rows-2 items-center m-7 p-1">
+                  <div className="row-span-2 col-span-1  w-9/12">
+                  <div className="p-6  items-center">
+                    <p className="text-gray-600 mb-3 text-left">{juegosDetalle.desc}</p>
+                  </div>
+                  </div>
+                  <div className="col-span-2 row-span-1  w-9/12">
+                  <div className="p-6 text-gray-600 ">
+                    <p className="mb-3 text-sm text-left border-b pb-1">PLATAFORMAS: {juegosDetalle.plataformas}</p> 
+                    <p className="mb-3 text-sm text-left border-b pb-1">GÉNERO: {juegosDetalle.type}</p> 
+                    <p className="mb-3  text-sm text-left border-b pb-1">DESARROLLADOR: {juegosDetalle.desarrollador}</p> 
+                    <p className="mb-3 text-sm text-left border-b pb-1">CLASIFICACIÓN: {juegosDetalle.clasificacion}</p>
+                      
+                    </div>
+                  </div>
+
+            </div>
+          </div>
       </div>
-      </div>
-     
-      <div className="grid  grid-cols-2  items-center m-7 p-15">
-      <div className="p-6  items-center">
-        <p className="text-gray-600 mb-3">{juegosDetalle.desc}</p>
-      </div>
-        <div className="p-6 text-gray-600 ">
-        <p className="mb-3 text-sm text-left border-b pb-1">PLATAFORMAS: {juegosDetalle.plataformas}</p> 
-        <p className="mb-3 text-sm text-left border-b pb-1">GÉNERO: {juegosDetalle.type}</p> 
-        <p className="mb-3  text-sm text-left border-b pb-1">DESARROLLADOR: {juegosDetalle.desarrollador}</p> 
-        <p className="mb-3 text-sm text-left border-b pb-1">CLASIFICACIÓN: {juegosDetalle.clasificacion}</p>
-           
-        </div>
-      </div>
+    </div>
+                
+
+      
 
 
        
