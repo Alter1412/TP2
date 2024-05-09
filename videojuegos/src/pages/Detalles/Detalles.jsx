@@ -58,13 +58,16 @@ const Detalles = () => {
                   </div>
                   </div>
                   <div className="col-span-2 row-span-1  w-9/12">
-                  <div className="p-6 text-gray-600 ">
-                    <p className="mb-3 text-sm text-left border-b pb-1">PLATAFORMAS: {juegosDetalle.plataformas}</p> 
-                    <p className="mb-3 text-sm text-left border-b pb-1">GÉNERO: {juegosDetalle.type}</p> 
-                    <p className="mb-3  text-sm text-left border-b pb-1">DESARROLLADOR: {juegosDetalle.desarrollador}</p> 
-                    <p className="mb-3 text-sm text-left border-b pb-1">CLASIFICACIÓN: {juegosDetalle.clasificacion}</p>
-                      
-                    </div>
+                    <div className="p-6 text-gray-600 ">
+                      <p className="mb-3 text-sm text-left border-b pb-1">PLATAFORMAS: {juegosDetalle.plataformas}</p> 
+                      <p className="mb-3 text-sm text-left border-b pb-1">GÉNERO: {juegosDetalle.type}</p> 
+                      <p className="mb-3  text-sm text-left border-b pb-1">DESARROLLADOR: {juegosDetalle.desarrollador}</p> 
+                      <p className="mb-3 text-sm text-left border-b pb-1">CLASIFICACIÓN: {juegosDetalle.clasificacion}</p>
+                        
+                      </div>
+                      <div className=" bg-[#F205CB] hover:bg-blue-700 text-white font-bold py-2 px-10 rounded inline-flex mt-20">
+                        <Button onClick={onClickHomeHandler} text={"Volver"}></Button>
+                      </div>
                   </div>
 
             </div>

@@ -28,6 +28,6 @@ Footer:
 <img src="videojuegos\src\assets\img\Screenshot_6.png">
 <br>
 Detalles:
-<img src="videojuegos\src\assets\img\Screenshot_4.png">
+<img src="videojuegos\src\assets\img\Screenshot_7.png">
 
 
