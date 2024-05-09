@@ -17,5 +17,11 @@ La app permite visualizar distintos video juegos con el respectivo detalle de ca
 <h2>Imagenes de como se debe visualizar la app: </h2>
 
 <img src="videojuegos\src\assets\img\Screenshot_1.png">
+<br>
+<img src="videojuegos\src\assets\img\Screenshot_2.png">
+<br>
+<img src="videojuegos\src\assets\img\Screenshot_3.png">
+<br>
+<img src="videojuegos\src\assets\img\Screenshot_4.png">
 
 
