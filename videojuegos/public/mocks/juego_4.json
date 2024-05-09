@@ -9,10 +9,8 @@
         "desarrollador": "Runic Games",
         "lanzamiento": "26 de septiembre de 2017",
         "plataformas": ["PC", "PlayStation 4", "Nintendo Switch"],
-        "images": [
-            "../../src/assets/Hob/hob.jpg",
-            "../../src/assets/Hob/hob-1.jpg"
-            ],
+        "images":"imagen_4.jpg",
+        "precio": "USD 9,99",
         "clasificacion": "PEGI 12",
         "calificacion": {
         "metacritic": 76,

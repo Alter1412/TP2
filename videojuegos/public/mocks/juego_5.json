@@ -6,10 +6,8 @@
     "desarrollador": "miHoYo",
     "lanzamiento": "28 de septiembre de 2020",
     "plataformas": ["PC", "PlayStation 4", "PlayStation 5", "iOS", "Android"],
-    "images": [
-        "../../src/assets/Genshin/genshin.jpg",
-        "../../src/assets/Genshin/genshin-1.jpg"
-        ],
+    "images": "imagen_5.jpg",
+    "precio": "USD 9,99",
     "calificacion": {
       "metacritic": 81,
       "usuarios": 8.3

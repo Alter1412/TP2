@@ -13,7 +13,7 @@ const Header = ({filtro, onFiltroChange}) => {
     };
 
     return (
-        <nav className="bg-[#000940] mb-8 w-full">
+        <nav className="bg-[#000940] mb-8 w-full shadow-xl">
           <div className="flex items-center text-white grid-cols-2">
            <img  onClick={onClickHomeHandler} className="h-24 w-auto cursor-pointer" src={logo} alt="" />
             <span className="font-semibold text-2xl tracking-tight">Game Zone</span>

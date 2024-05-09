@@ -6,10 +6,8 @@
         "desarrollador": "Videocult",
         "lanzamiento": "28 de marzo de 2017",
         "plataformas": ["PC", "PlayStation 4", "Nintendo Switch"],
-        "images": [
-            "../../src/assets/RainWorld/rain-world.jpg",
-            "../../src/assets/RainWorld/rain-World-1.jpg"
-            ],
+        "images":"imagen_2.png",
+        "precio": "USD 9,99",
         "clasificacion": "PEGI 7",
         "calificacion": {
             "metacritic": 73,

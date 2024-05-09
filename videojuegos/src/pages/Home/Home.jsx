@@ -42,21 +42,16 @@ const Home = () => {
 
   return (
     
-  <div class="flex flex-wrap bg-indigo-950">
+  <div class=" bg-indigo-950">
     <Header filtro={filtro} onFiltroChange={busqueda} />
  
-{/*     {juegosState.map((juegos) => {
-      return <p key={juegos.name}> {juegos.name}</p>;
-    })} */}
+
     <Card juegos={resultado}></Card>
-
-    
-   <Footer />
-
-    </div>
-
-  )
-
+    <Footer />
+  </div>
+  
+  
+);
 
 }
 export default Home;

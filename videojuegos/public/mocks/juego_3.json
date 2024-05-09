@@ -8,10 +8,8 @@
         "desarrollador": "ConcernedApe",
         "lanzamiento": "26 de febrero de 2016",
         "plataformas": ["PC", "PlayStation 4", "Xbox One", "Nintendo Switch", "iOS", "Android"],
-        "images": [
-            "../../src/assets/StardewValley/stardew-valley.jpg",
-            "../../src/assets/StardewValley/stardew-valley1.jpg"
-            ],
+        "images": "imagen_3.jpg",
+        "precio": "USD 9,99",
         "clasificacion": "PEGI 7",
         "calificacion": {
           "metacritic": 89,

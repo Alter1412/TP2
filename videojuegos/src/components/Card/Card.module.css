@@ -1,6 +1,6 @@
 .card-image {
     width: 80%;
     height: auto;
-    display: block; /* Esto asegura que la imagen se comporte como un bloque */
-    margin: 0 auto; /* Esto centra horizontalmente la imagen dentro de su contenedor */
+    display: block; 
+    margin: 0 auto; 
   }

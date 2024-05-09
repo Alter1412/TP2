@@ -7,7 +7,8 @@
         "lanzamiento": "Por confirmar",
         "plataformas": ["PC", "iOS", "Android"],
         "enlace": "Por confirmar",
-       
+        "precio": "USD 9,99",
+        "images": "imagen_6.jpg",
         "calificacion": {
             "metacritic": "Por confirmar",
             "usuarios": "Por confirmar"
