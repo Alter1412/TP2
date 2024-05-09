@@ -15,14 +15,17 @@ La app permite visualizar distintos video juegos con el respectivo detalle de ca
 - `Paso 3` Utiliza el comando npm start para inicializar la app
 
 <h2>Imagenes de como se debe visualizar la app: </h2>
-Header/home:
+Header:
+<img src="videojuegos\src\assets\img\Screenshot_5.png">
+<br>
+Home:
 <img src="videojuegos\src\assets\img\Screenshot_1.png">
 <br>
 Card:
 <img src="videojuegos\src\assets\img\Screenshot_2.png">
 <br>
 Footer:
-<img src="videojuegos\src\assets\img\Screenshot_3.png">
+<img src="videojuegos\src\assets\img\Screenshot_6.png">
 <br>
 Detalles:
 <img src="videojuegos\src\assets\img\Screenshot_4.png">
