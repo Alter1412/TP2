@@ -4,6 +4,7 @@ import Card from "../../components/Card/Card";
 import SearchBar from "../../components/SearchBar/SearchBar";
 import Header from "../../components/Header/Header";
 import Footer from "../../components/Footer/Footer";
+import Mensaje from "../../components/Mensaje/Mensaje";
 
 const Home = () => {
   const [juegosState, setJuegosState] = useState([]);
@@ -32,6 +33,7 @@ const Home = () => {
      console.log(resultado)
    }
 
+
   
   useEffect(() => {
 
@@ -42,10 +44,12 @@ const Home = () => {
 
   return (
     
-  <div class=" bg-indigo-950">
+  <div className=" mx-auto w-full  bg-indigo-950">
     <Header filtro={filtro} onFiltroChange={busqueda} />
- 
-
+    <div>
+      <p><Mensaje arregloJuegos={resultado} /> </p>
+    </div>
+    
     <Card juegos={resultado}></Card>
     <Footer />
   </div>
