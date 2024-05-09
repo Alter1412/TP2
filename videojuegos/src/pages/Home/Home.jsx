@@ -45,7 +45,7 @@ const Home = () => {
   return (
     
   <div className=" mx-auto w-full  bg-indigo-950">
-    <Header filtro={filtro} onFiltroChange={busqueda} />
+    <Header filtro={filtro} onFiltroChange={busqueda} SearchBarState={true}/>
     <div>
       <p><Mensaje arregloJuegos={resultado} /> </p>
     </div>
