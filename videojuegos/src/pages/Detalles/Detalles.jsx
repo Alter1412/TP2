@@ -47,7 +47,7 @@ const Detalles = () => {
                <p className="mb-3 text-sm text-left ">Disponible: {juegosDetalle.lanzamiento}</p> 
     
               <a href={juegosDetalle.enlace} className=" bg-[#F205CB] hover:bg-blue-700 text-white font-bold py-2 px-10 rounded inline-flex ">
-              obtener juego
+              Obtener Juego
             </a> 
 
             </div>

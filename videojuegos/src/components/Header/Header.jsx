@@ -1,6 +1,5 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
-import style from "./Header.modules.css";
 import {ROUTES} from "../../const/routes";
 import logo from "./images.jpg";
 import SearchBar from "../SearchBar/SearchBar";

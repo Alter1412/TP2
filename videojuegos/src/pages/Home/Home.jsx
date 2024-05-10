@@ -1,7 +1,5 @@
-import { useNavigate } from "react-router-dom";
 import { useState, useEffect } from "react";
 import Card from "../../components/Card/Card";
-import SearchBar from "../../components/SearchBar/SearchBar";
 import Header from "../../components/Header/Header";
 import Footer from "../../components/Footer/Footer";
 import Mensaje from "../../components/Mensaje/Mensaje";
@@ -9,6 +7,7 @@ import Mensaje from "../../components/Mensaje/Mensaje";
 const Home = () => {
   const [juegosState, setJuegosState] = useState([]);
   const [filtro, setFiltro] = useState('');//recibe lo que se busca por la barra de busqueda
+  const [mostrarMensaje, setMostrarMensaje] = useState(false);
 
   const fetchJuegos = async () => {
     console.log("Hola!");
@@ -32,8 +31,6 @@ const Home = () => {
      resultado = juegosState.filter((juego)=>juego.name.toLocaleLowerCase().startsWith(filtro.toLocaleLowerCase()))
      console.log(resultado)
    }
-
-
   
   useEffect(() => {
 
@@ -41,16 +38,19 @@ const Home = () => {
     
   }, []);
 
+  useEffect(() => {
+    setMostrarMensaje(resultado.length === 0);
+  }, [resultado]);
+
+
 
   return (
     
   <div className=" mx-auto w-full  bg-indigo-950">
+
     <Header filtro={filtro} onFiltroChange={busqueda} SearchBarState={true}/>
-    <div>
-      <p><Mensaje arregloJuegos={resultado} /> </p>
-    </div>
-    
-    <Card juegos={resultado}></Card>
+      {mostrarMensaje && <Mensaje arregloJuegos={resultado} />}
+      {!mostrarMensaje && <Card juegos={resultado} />}
     <Footer />
   </div>
   
