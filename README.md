@@ -16,18 +16,18 @@ La app permite visualizar distintos video juegos con el respectivo detalle de ca
 
 <h2>Imagenes de como se debe visualizar la app: </h2>
 Header:
-<img src="videojuegos\src\assets\img\Screenshot_5.png">
+<img src="videojuegos\public\img\Screenshot_5.png">
 <br>
 Home:
-<img src="videojuegos\src\assets\img\Screenshot_1.png">
+<img src="videojuegos\public\img\Screenshot_1.png">
 <br>
 Card:
-<img src="videojuegos\src\assets\img\Screenshot_2.png">
+<img src="videojuegos\public\img\Screenshot_2.png">
 <br>
 Footer:
-<img src="videojuegos\src\assets\img\Screenshot_6.png">
+<img src="videojuegos\public\img\Screenshot_6.png">
 <br>
 Detalles:
-<img src="videojuegos\src\assets\img\Screenshot_7.png">
+<img src="videojuegos\public\img\Screenshot_7.png">
 
 
